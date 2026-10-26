@@ -6,6 +6,6 @@ total_propina = costo * (propina / 100) # aqui hace la operacion para calcular l
 total = costo + total_propina # aqui suma el costo del servicio con la propina para obtener el total.
 
 if costo < 0 or propina < 0:
-    print("Error: El costo del servicio y el porcentaje de propina deben ser números positivos.") # Imprime un mensaje de error si el costo o la propina son negativos.
+    print("Error: El costo del servicio y el porcentaje de propina deben ser números positivos.") # Imprime un mensaje de error si el costo o la propina son negativos. 
 else:
     print(f"El costo total del servicio incluyendo la propina es: {total:.2f} ") # Imprime el resultado final al usuario.
